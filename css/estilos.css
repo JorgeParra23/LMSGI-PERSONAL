@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+@media screen and (min-width: 0px) {
+    header {
+        height: 60px;
+        background-image: url(../img/estrellas.jpg);
+    }
+
+    header #contacto {
+        height: 45px;
+        background-color: transparent;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        color: whitesmoke;
+        
+    }
+
+    header #contacto a {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-right: 30px;
+        text-decoration: none;
+        margin-top: 10px;
+        color: white;
+    }
+    
+    header #contacto a span {
+        display: flex;
+        justify-content: space-between;
+        color: white
+    }
+    
+    header #contacto a:nth-child(1) {
+        margin-left: 10px;
+    }
+
+    body{
+        background-image: url(../img/fondo\ cielo.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        /* background-image: url(../img/Panoramica_skyline_ciudad.jpg); */
+        width: 100%;
+        height: 100%; 
+        color: white;
+    }
+
+    main img {
+        width: 30%;
+        height: 25%;
+        border-radius: 100%;
+        box-shadow: 10px 10px 10px 5px;
+        margin: 5px;
+    }
+    
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    main section article {
+        width: 30%;
+        margin: 10px;
+    }
+
+    main section #datos{
+        width: 70%;
+    }
+
+    main section #biografia {
+        width: 100%;
+    }
+    
+    main section #estudios {
+        width: 100%;
+    }
+
+    main section article h1{
+        text-align: center;
+    }
+    
+    main section article p{
+        /* display: flex; */
+        text-align: center;
+        margin: 10px;
+    }
+
+    footer {
+        height: 100px;
+        background-size: cover;
+        padding: 8px;
+        background-image: url(../img/HD-wallpaper-planets-cartoon-galaxy-simple-simple-solar-system-space.jpg);
+    }
+
+    footer #frases {
+        display: none;
+    }
+
+    footer #frases p {
+        margin: 30px;
+
+    }
+    footer #frases img {
+        width: 10%;
+    }
+
+    footer #frases2 {
+        display: none;
+    }
+
+    footer #frasemovil {
+        display: flex;
+    }
+
+    footer #frasemovil p{
+        display: flex;
+        color: white;
+        margin: 15px;
+    }
+
+
+    footer #frasemovil img {
+        display: flex;
+        width: 15%;
+        border-radius: 50%;
+    }
+
+
+    }
+
+@media screen and (min-width: 650px) {
+     header {
+        height: 60px;
+        background-image: url(../img/descarga.jpg);
+    }
+
+    header #contacto {
+        height: 45px;
+        background-color: transparent;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header #contacto a {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        color: whitesmoke;
+        margin-right: 30px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    
+    header #contacto a span {
+        display: flex;
+        justify-content: space-between;
+        color: whitesmoke;
+    }
+    
+    header #contacto a:nth-child(1) {
+        margin-left: 10px;
+    }
+    
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.552), rgba(0, 0, 0, 0.609)),url(../img/images.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;    
+    }
+
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        /* background-image:  url(../img/images.jpg); */
+        width: 100%;
+        height: 100%;
+        color: white;
+    }
+
+    main img {
+        width: 30%;
+        height: 30%;
+        border-radius: 100%;
+        box-shadow: 10px 10px 10px 5px;
+        margin: 5px;
+    }
+    
+    main section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    main section article {
+        width: 30%;
+        margin: 10px;
+    }
+
+    main section #datos{
+        width: 100%;
+    }
+
+    main section #biografia {
+        width: 45%;
+    }
+    
+    main section #estudios {
+        width: 45%;
+    }
+
+    main section article h1{
+        text-align: center;
+    }
+    
+    main section article p{
+        text-align: center;
+        margin: 10px;
+    }
+
+    footer {
+        background-image: none;
+        background-color: rgba(0, 0, 0, 0.521);
+        height: 105px;
+    }
+
+    footer #frasemovil {
+        display: none;
+    }
+
+    footer #frases {
+        display: none;
+        color: white;
+    }
+
+    footer #frases p {
+        margin: 15px;
+
+    }
+    footer #frases img {
+        width: 20%;
+    }
+
+    footer #frases2 {
+        display: flex;
+    }
+
+    footer #frases2 p {
+        display: flex;
+        color: white;
+        width: 50%;
+        margin: 10px;
+        
+
+    }
+    footer #frases2 img {
+        width: 15%;
+        height: 90px;
+        border-radius: 20%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        height: 40px;
+        background-image: url(../img/HO\ castillo1.jpg);
+    }
+    
+    header #contacto {
+        height: 30px;
+        background-color: transparent;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header #contacto a {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        color: black;
+        margin-right: 30px;
+        text-decoration: none;
+        margin-top: 10px;
+    }
+    
+    header #contacto a span {
+        display: flex;
+        justify-content: space-between;
+        color: black;
+    }
+    
+    header #contacto a:nth-child(1) {
+        margin-left: 10px;
+    }
+
+    body {
+        background-image: url(../img/Panoramica_skyline_ciudad.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;    
+    }
+    
+    main {
+        display: flex;
+        flex-flow: row wrap;
+        height: 600px;
+        /* background-image: url(../img/Panoramica_skyline_ciudad.jpg); */
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: black
+    }
+
+    main img {
+        display: flex;
+        border-radius: 0%;
+        height: 200px;
+        width: 15%;
+        box-shadow: none;
+    }
+    
+    
+    main section {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    
+    main section article {
+        width: 30%;
+        margin: 10px;
+    }
+    main section #datos{
+        width: 25%;
+        
+    }
+
+    main section #biografia {
+        width: 25%;
+        
+    }
+
+    main section #estudios {
+        width: 25%;
+    }
+    
+    main section article h1{
+        text-align: center;
+    }
+    
+    main section article p{
+        /* display: flex; */
+        text-align: center;
+        margin: 10px;
+    }
+
+    footer {
+        background-image: none;
+        height: 110px;
+        background-color: rgba(0, 0, 0, 0.609);
+    }
+
+    footer #frasemovil {
+        display: none;
+    }
+
+    footer #frases {
+        display: flex;
+        color: white;
+        
+    }
+
+    footer #frases p {
+        margin: 30px;
+
+    }
+    footer #frases img {
+        width: 200px;
+        height: 90px;
+    }
+
+    footer #frases2 {
+        display: none;
+    }
+
+    footer #frases2 p {
+        display: none;
+    }
+
+    footer #frases2 img {
+        width: 15%;
+        display: none;
+    }
+}
